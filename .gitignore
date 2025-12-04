@@ -209,6 +209,7 @@ __marimo__/
 # Project specific
 output/*/
 !output/README.md
+data/*/
 
 # IDE
 *.swp
@@ -220,3 +221,5 @@ debug.log
 # OS
 .DS_Store
 Thumbs.db
+union.py
+data/synthdata.parquet
