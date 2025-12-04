@@ -128,6 +128,66 @@ class GeminiClient(LLMClient):
             raise
 
 
+class ClaudeClient(LLMClient):
+    """
+    Client for Anthropic Claude API
+    """
+
+    def __init__(self, model: str, temperature: float = 1.0, max_tokens: int = 4000):
+        """
+        Initialize Claude client.
+
+        Args:
+            model:
+                Model name (e.g., 'claude-sonnet-4-5-20250929')
+            temperature:
+                Sampling temperature
+            max_tokens:
+                Max tokens to generate
+        """
+        try:
+            from anthropic import Anthropic
+        except ImportError:
+            raise ImportError(
+                "anthropic package not installed. Run: pip install anthropic"
+            )
+
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            raise ValueError("ANTHROPIC_API_KEY not found in environment variables")
+
+        self.client = Anthropic(api_key=api_key)
+        self.model = model
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+
+        logger.info(
+            f"Initialized ClaudeClient with model={model}, temperature={temperature}, max_tokens={max_tokens}"
+        )
+
+    def generate(self, prompt: str) -> str:
+        """
+        Generate response from Claude.
+        """
+        logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
+
+        try:
+            response = self.client.messages.create(
+                model=self.model,
+                max_tokens=self.max_tokens,
+                temperature=self.temperature,
+                messages=[{"role": "user", "content": prompt}],
+            )
+
+            result = response.content[0].text
+            logger.debug(f"Received response from Claude (length={len(result)} chars)")
+            return result
+
+        except Exception as e:
+            logger.error(f"Error generating from Claude: {e}")
+            raise
+
+
 class LocalClient(LLMClient):
     """
     Client for local OpenAI-compatible endpoint
@@ -223,6 +283,14 @@ def create_llm_client(llm_config: dict) -> Optional[LLMClient]:
     elif provider == "gemini":
         config = llm_config["gemini"]
         return GeminiClient(
+            model=config["model"],
+            temperature=config.get("temperature", 1.0),
+            max_tokens=config.get("max_tokens", 4000),
+        )
+
+    elif provider == "claude":
+        config = llm_config["claude"]
+        return ClaudeClient(
             model=config["model"],
             temperature=config.get("temperature", 1.0),
             max_tokens=config.get("max_tokens", 4000),
