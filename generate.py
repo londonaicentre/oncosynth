@@ -78,6 +78,29 @@ def generate_doc_id(structure_name, profile_id):
     return f"{structure_name}_{profile_id}_{timestamp}"
 
 
+def get_existing_profile_ids(output_dir):
+    """
+    Scan output directory for existing JSON files and extract profile IDs
+    Filename format: {structure}_{profile_id}_{timestamp}.json
+    Where timestamp is: YYYYMMDD_HHMMSS_mmm (3 parts)
+    """
+    existing_profiles = set()
+
+    if not output_dir.exists():
+        return existing_profiles
+
+    for json_file in output_dir.glob("*.json"):
+        filename = json_file.stem
+        parts = filename.split("_")
+
+        if len(parts) >= 5:
+            profile_id = "_".join(parts[1:-3])
+            if profile_id:
+                existing_profiles.add(profile_id)
+
+    return existing_profiles
+
+
 def main():
     base_dir = Path(__file__).parent
 
@@ -141,10 +164,24 @@ def main():
     output_dir = base_dir / "output" / pipeline_config["output"]["subdirectory"]
     print(f"Output directory: {output_dir}")
 
+    # skip_existing flag to filter profiles
+    skip_existing = pipeline_config["output"].get("skip_existing", False)
+
+    if skip_existing:
+        existing_profiles = get_existing_profile_ids(output_dir)
+        filtered_count = builder.profile_loader.filter_existing_profiles(
+            existing_profiles
+        )
+        print(f"Skip existing enabled: Filtered out {filtered_count} existing profiles")
+        logger.info(
+            f"Skip existing enabled: {filtered_count} profiles already generated"
+        )
+
     mode = pipeline_config["profile_selection"]["mode"]
     count = pipeline_config["profile_selection"]["count"]
     include_style = pipeline_config["prompt_config"]["include_style"]
     include_content = pipeline_config["prompt_config"]["include_content"]
+    include_structure = pipeline_config["prompt_config"]["include_structure"]
 
     total_docs = builder.get_profile_count() if count == -1 else count
 
@@ -152,13 +189,14 @@ def main():
     print(f"Generating {total_docs} {action} in '{mode}' mode...")
     print("#" * 60)
 
-    # todo: can refactor this as sequential and random share identical code
+    # todo: can refactor this as sequential and random share identical code
     if mode == "sequential":
         for i, profile in enumerate(builder.get_sequential_profiles(), 1):
             if i > total_docs:
                 break
+
             prompt, structure_name, profile_id = builder.build_prompt(
-                profile, include_style, include_content
+                profile, include_style, include_content, include_structure
             )
             doc_id = generate_doc_id(structure_name, profile_id)
 
@@ -182,8 +220,9 @@ def main():
     elif mode == "random":
         for i in range(1, total_docs + 1):
             profile = builder.get_random_profile()
+
             prompt, structure_name, profile_id = builder.build_prompt(
-                profile, include_style, include_content
+                profile, include_style, include_content, include_structure
             )
             doc_id = generate_doc_id(structure_name, profile_id)
 

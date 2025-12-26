@@ -56,7 +56,9 @@ class PromptBuilder:
         """
         return self.profile_loader.get_sequential_profiles()
 
-    def build_prompt(self, profile, include_style=True, include_content=True):
+    def build_prompt(
+        self, profile, include_style=True, include_content=True, include_structure=True
+    ):
         """
         Assemble complete prompt for a given profile
         """
@@ -66,16 +68,23 @@ class PromptBuilder:
         # profile
         profile_prompt = self.profile_loader.format_profile_prompt(profile)
 
-        # get structure
-        structure_filename, structure_content = (
-            self.structure_loader.get_random_structure()
-        )
-        structure_name = self.structure_loader.get_structure_name_without_extension(
-            structure_filename
-        )
-        structure_prompt = self.structure_loader.format_structure_prompt(
-            structure_content
-        )
+        # get structure (optional)
+        structure_name = "nostructure"
+        structure_prompt = None
+
+        if include_structure:
+            structure_filename, structure_content = (
+                self.structure_loader.get_random_structure()
+            )
+            if structure_filename and structure_content:
+                structure_name = (
+                    self.structure_loader.get_structure_name_without_extension(
+                        structure_filename
+                    )
+                )
+                structure_prompt = self.structure_loader.format_structure_prompt(
+                    structure_content
+                )
 
         # assemble!
         components = []
@@ -86,7 +95,10 @@ class PromptBuilder:
         if include_content:
             components.append(content_prompt)
 
-        components.extend([profile_prompt, structure_prompt])
+        components.append(profile_prompt)
+
+        if structure_prompt:
+            components.append(structure_prompt)
 
         specific_instructions = "\n\n".join(components)
         complete_prompt = self.template.format(

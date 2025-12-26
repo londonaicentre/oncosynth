@@ -101,3 +101,15 @@ class ProfileLoader:
 
     def get_profile_count(self):
         return len(self.all_profiles)
+
+    def filter_existing_profiles(self, existing_profile_ids):
+        """
+        Remove profiles that already exist from the loaded profiles list
+        """
+        original_count = len(self.all_profiles)
+        self.all_profiles = [
+            profile for profile in self.all_profiles
+            if profile["profile_id"] not in existing_profile_ids
+        ]
+        filtered_count = original_count - len(self.all_profiles)
+        return filtered_count
