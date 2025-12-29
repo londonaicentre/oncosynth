@@ -1,5 +1,6 @@
 # NAMES AND LOCATIONS FOR SYNTHETIC DOCUMENTS
-# Simple flat lists for random sampling
+# Flat lists for random sampling
+# Hospital and ward names are generic
 
 patient_names:
   - James Anderson
@@ -136,6 +137,150 @@ patient_names:
   - Claire Watson
   - Gabriel Silva
   - Asma Noor
+  - Mary-Anne O'Sullivan
+  - Jean-Claude Dubois
+  - Siobhán O'Reilly
+  - François Leclerc
+  - José María González
+  - Søren Nielsen
+  - Sinéad Murphy
+  - Björn Andersson
+  - Nuala O'Donnell
+  - Seán MacCarthy
+  - Niamh O'Leary
+  - Aoife Fitzgerald
+  - Ciarán O'Neill
+  - Máire Brennan
+  - Pádraig Quinn
+  - Sarah Smith-Jones
+  - Michael García-López
+  - Emma Wilson-Taylor
+  - James Anderson-Brown
+  - Lisa Thompson-Davies
+  - Daniel Martinez-Ruiz
+  - Sophie Clarke-Morgan
+  - Alexander Petrov-Ivanov
+  - Fatima Al-Rashid
+  - Abdullah bin Mohammed
+  - Mariam bint Hassan
+  - Xavier de la Cruz
+  - Isabella van der Berg
+  - Maria de Silva
+  - Thomas van Houten
+  - Peter de Jong
+  - Sophie van Dijk
+  - Ali Al-Sayed
+  - Noor Al-Zahrani
+  - Li Bo
+  - An Yu
+  - Jo Kim
+  - Su Lin
+  - Na Min
+  - Ye Chen
+  - Xi Wang
+  - Konstantinos Papadopoulos
+  - Srinivasan Ramasubramanian
+  - Anastasia Nikolaevna
+  - Oluwaseun Adeyemi
+  - Thandiwe Nkosi
+  - Chiwetel Okonkwo
+  - Folasade Adebayo
+  - Chiamaka Eze
+  - Oluwatosin Oladele
+  - Chukwuemeka Okafor
+  - Ngozi Chukwu
+  - Adaobi Nwosu
+  - Chinwe Udeh
+  - Kehinde Afolayan
+  - Babatunde Ogunleye
+  - Adeola Adewale
+  - Jing-Wei Liu
+  - Ming-Hua Zhang
+  - Xiao-Ming Chen
+  - Wei-Ting Wang
+  - Yun-Fei Li
+  - Aroha Whaitiri
+  - Hemi Ngata
+  - Rangi Tāne
+  - Moana Pomare
+  - Kiri Parata
+  - Wiremu Te Rangi
+  - Anahera Walker
+  - Winston Chu
+  - Precious Williams
+  - Kwabena Mensah
+  - Akosua Owusu
+  - Yaw Boateng
+  - Ama Asante
+  - Kofi Agyei
+  - Abena Osei
+  - Esi Ansah
+  - Vladislav Sokolov
+  - Ekaterina Smirnova
+  - Yevgeny Volkov
+  - Natasha Kuznetsova
+  - Dmitri Ivanov
+  - Svetlana Popova
+  - Pavel Morozov
+  - Valentina Fedorova
+  - Sergei Novikov
+  - Anastasiya Volkova
+  - Tatiana Orlova
+  - Mikhail Kozlov
+  - Olga Sokolova
+  - Igor Pavlov
+  - Larisa Petrova
+  - Andrei Vasiliev
+  - Irina Egorova
+  - Viktor Lebedev
+  - Rajeev Bandyopadhyay
+  - Venkatesh Ramakrishnan
+  - Sita Narayanan
+  - Balachandran Subramaniam
+  - Padmini Chandrasekaran
+  - Gopal Venkataraman
+  - Rukmini Parthasarathy
+  - Anand Venkatesan
+  - Kamala Raghavan
+  - Murali Swaminathan
+  - Lalita Krishnamurthy
+  - Winston Chang
+  - Precious Adeyemi
+  - Divine Okeke
+  - Blessing Onyeka
+  - Miracle Udoka
+  - Favour Chinedu
+  - Grace-Ellen Thompson
+  - Lily-Rose Martin
+  - Anna-Sofia Korhonen
+  - Marie-Claire Rousseau
+  - Jean-Pierre Fontaine
+  - Anne-Marie Bernard
+  - Pierre-Yves Moreau
+  - Claude-Henri Laurent
+  - Maeve O'Shea
+  - Roisin McCarthy
+  - Declan O'Connor
+  - Eoin Gallagher
+  - Fionnuala Doherty
+  - Aisling Kelly
+  - Dara Flanagan
+  - Saoirse Ryan
+  - Oisín Doyle
+  - Tadhg Maguire
+  - Caoimhe Walsh
+  - Cillian Brady
+  - Grainne Byrne
+  - Orla Kennedy
+  - Conor Fitzgerald
+  - Deirdre Lynch
+  - Paddy McDonagh
+  - Eileen Hogan
+  - Bridget Kavanagh
+  - Seamus O'Toole
+  - Kathleen Brennan
+  - Patrick Murphy
+  - Mairead Healy
 
 clinician_names:
   - Dr James Harrison
@@ -260,6 +405,120 @@ clinician_names:
   - Dr Hannah Morris
   - Dr Rafael Torres
   - Dr Aya Mansour
+  - Dr Mary-Anne O'Sullivan
+  - Dr Jean-Claude Dubois
+  - Dr Siobhán O'Reilly
+  - Prof François Leclerc
+  - Dr José María González
+  - Dr Søren Nielsen
+  - Miss Sinéad Murphy
+  - Dr Björn Andersson
+  - Dr Nuala O'Donnell
+  - Mr Seán MacCarthy
+  - Dr Niamh O'Leary
+  - Prof Aoife Fitzgerald
+  - Dr Ciarán O'Neill
+  - Dr Máire Brennan
+  - Dr Pádraig Quinn
+  - Dr Sarah Smith-Jones
+  - Prof Michael García-López
+  - Dr Emma Wilson-Taylor
+  - Consultant James Anderson-Brown
+  - Dr Lisa Thompson-Davies
+  - Mr Daniel Martinez-Ruiz
+  - Ms Sophie Clarke-Morgan
+  - Dr Alexander Petrov-Ivanov
+  - Dr Fatima Al-Rashid
+  - Dr Abdullah bin Mohammed
+  - Dr Mariam bint Hassan
+  - Prof Xavier de la Cruz
+  - Dr Isabella van der Berg
+  - Dr Maria de Silva
+  - Dr Thomas van Houten
+  - Mr Peter de Jong
+  - Dr Sophie van Dijk
+  - Dr Ali Al-Sayed
+  - Dr Noor Al-Zahrani
+  - Dr Konstantinos Papadopoulos
+  - Dr Srinivasan Ramasubramanian
+  - Dr Anastasia Nikolaevna
+  - Dr Oluwaseun Adeyemi
+  - Dr Thandiwe Nkosi
+  - Prof Chiwetel Okonkwo
+  - Dr Folasade Adebayo
+  - Dr Chiamaka Eze
+  - Dr Oluwatosin Oladele
+  - Mr Chukwuemeka Okafor
+  - Dr Ngozi Chukwu
+  - Dr Adaobi Nwosu
+  - Dr Chinwe Udeh
+  - Dr Kehinde Afolayan
+  - Dr Babatunde Ogunleye
+  - Dr Adeola Adewale
+  - Dr Jing-Wei Liu
+  - Dr Ming-Hua Zhang
+  - Prof Xiao-Ming Chen
+  - Dr Wei-Ting Wang
+  - Dr Yun-Fei Li
+  - Dr Vladimir Sokolov
+  - Prof Ekaterina Smirnova
+  - Dr Yevgeny Volkov
+  - Dr Natasha Kuznetsova
+  - Dr Dmitri Ivanov
+  - Dr Svetlana Popova
+  - Dr Pavel Morozov
+  - Dr Valentina Fedorova
+  - Mr Sergei Novikov
+  - Dr Anastasiya Volkova
+  - Dr Tatiana Orlova
+  - Dr Mikhail Kozlov
+  - Dr Olga Sokolova
+  - Prof Igor Pavlov
+  - Dr Larisa Petrova
+  - Dr Andrei Vasiliev
+  - Dr Irina Egorova
+  - Dr Viktor Lebedev
+  - Dr Rajeev Bandyopadhyay
+  - Dr Venkatesh Ramakrishnan
+  - Dr Balachandran Subramaniam
+  - Dr Padmini Chandrasekaran
+  - Prof Gopal Venkataraman
+  - Dr Rukmini Parthasarathy
+  - Dr Anand Venkatesan
+  - Dr Kamala Raghavan
+  - Dr Murali Swaminathan
+  - Dr Lalita Krishnamurthy
+  - Ms Grace-Ellen Thompson
+  - Dr Lily-Rose Martin
+  - Dr Anna-Sofia Korhonen
+  - Prof Marie-Claire Rousseau
+  - Dr Jean-Pierre Fontaine
+  - Dr Anne-Marie Bernard
+  - Mr Pierre-Yves Moreau
+  - Dr Claude-Henri Laurent
+  - Dr Maeve O'Shea
+  - Dr Roisin McCarthy
+  - Mr Declan O'Connor
+  - Dr Eoin Gallagher
+  - Dr Fionnuala Doherty
+  - Dr Aisling Kelly
+  - Dr Dara Flanagan
+  - Prof Saoirse Ryan
+  - Dr Oisín Doyle
+  - Dr Tadhg Maguire
+  - Dr Caoimhe Walsh
+  - Mr Cillian Brady
+  - Dr Grainne Byrne
+  - Dr Orla Kennedy
+  - Dr Conor Fitzgerald
+  - Dr Deirdre Lynch
+  - Dr Paddy McDonagh
+  - Prof Eileen Hogan
+  - Dr Bridget Kavanagh
+  - Dr Seamus O'Toole
+  - Dr Kathleen Brennan
+  - Dr Patrick Murphy
+  - Dr Mairead Healy
 
 providers:
   - Royal London Hospital
@@ -287,20 +546,179 @@ providers:
   - Whipps Cross Hospital London
   - Northwick Park Hospital
   - Homerton University Hospital
-  - Massachusetts General Hospital
-  - Johns Hopkins Hospital
-  - Cleveland Clinic
-  - Mayo Clinic Rochester
-  - Stanford Medical Center
-  - UCLA Medical Center
-  - Mount Sinai Hospital New York
-  - Presbyterian Hospital New York
-  - Brigham and Women's Hospital
-  - Duke University Hospital
-  - UCSF Medical Center
-  - Northwestern Memorial Hospital
-  - Barnes-Jewish Hospital St Louis
-  - Houston Methodist Hospital
+  - St George's Hospital London
+  - University College Hospital London
+  - Chelsea and Westminster Hospital
+  - St Mary's Hospital London
+  - Queen Charlotte's Hospital London
+  - Royal Free Hospital London
+  - Barnet Hospital
+  - North Middlesex Hospital
+  - Princess Royal Hospital Bromley
+  - Lewisham Hospital
+  - Queen Elizabeth Hospital Woolwich
+  - Croydon University Hospital
+  - Epsom General Hospital
+  - Kingston Hospital
+  - St Helier Hospital Carshalton
+  - Frimley Park Hospital
+  - Wexham Park Hospital
+  - Stoke Mandeville Hospital
+  - Milton Keynes University Hospital
+  - Luton and Dunstable Hospital
+  - Bedford Hospital
+  - Watford General Hospital
+  - Lister Hospital Stevenage
+  - Princess Alexandra Hospital Harlow
+  - Basildon University Hospital
+  - Southend University Hospital
+  - Broomfield Hospital Chelmsford
+  - Colchester General Hospital
+  - Ipswich Hospital
+  - James Paget Hospital Great Yarmouth
+  - Norfolk and Norwich Hospital
+  - Queen Elizabeth Hospital King's Lynn
+  - West Suffolk Hospital
+  - Peterborough City Hospital
+  - Hinchingbrooke Hospital
+  - Royal Derby Hospital
+  - Queens Medical Centre Nottingham
+  - Glenfield Hospital Leicester
+  - Kettering General Hospital
+  - Northampton General Hospital
+  - George Eliot Hospital Nuneaton
+  - University Hospital Coventry
+  - Warwick Hospital
+  - Heartlands Hospital Birmingham
+  - Good Hope Hospital Birmingham
+  - Solihull Hospital
+  - Sandwell General Hospital
+  - City Hospital Birmingham
+  - Dudley Guest Hospital
+  - Russells Hall Hospital Dudley
+  - Walsall Manor Hospital
+  - New Cross Hospital Wolverhampton
+  - Royal Stoke University Hospital
+  - County Hospital Stafford
+  - Burton Hospital
+  - Queen's Hospital Burton
+  - Worcestershire Royal Hospital
+  - Alexandra Hospital Redditch
+  - Hereford County Hospital
+  - Shrewsbury Royal Hospital
+  - Princess Royal Hospital Telford
+  - Royal Albert Edward Infirmary Wigan
+  - Salford Royal Hospital
+  - North Manchester General Hospital
+  - Wythenshawe Hospital Manchester
+  - Stepping Hill Hospital Stockport
+  - Tameside General Hospital
+  - Royal Oldham Hospital
+  - Rochdale Infirmary
+  - Fairfield General Hospital Bury
+  - Bolton Royal Hospital
+  - Royal Preston Hospital
+  - Royal Blackburn Hospital
+  - Burnley General Hospital
+  - Royal Lancaster Infirmary
+  - Furness General Hospital Barrow
+  - Cumberland Infirmary Carlisle
+  - West Cumberland Hospital Whitehaven
+  - Sunderland Royal Hospital
+  - Queen Elizabeth Hospital Gateshead
+  - North Tyneside General Hospital
+  - South Tyneside Hospital
+  - University Hospital of North Durham
+  - Darlington Memorial Hospital
+  - James Cook University Hospital Middlesbrough
+  - Friarage Hospital Northallerton
+  - Scarborough Hospital
+  - York Hospital
+  - Harrogate District Hospital
+  - Airedale General Hospital
+  - Bradford Royal Infirmary
+  - Calderdale Royal Hospital Halifax
+  - Huddersfield Royal Infirmary
+  - Dewsbury District Hospital
+  - Pinderfields Hospital Wakefield
+  - Pontefract Hospital
+  - Doncaster Royal Infirmary
+  - Rotherham Hospital
+  - Barnsley Hospital
+  - Scunthorpe General Hospital
+  - Diana Princess of Wales Hospital Grimsby
+  - Hull Royal Infirmary
+  - Castle Hill Hospital Cottingham
+  - Lincoln County Hospital
+  - Pilgrim Hospital Boston
+  - Grantham Hospital
+  - Royal Liverpool University Hospital
+  - Aintree University Hospital
+  - Whiston Hospital
+  - St Helens Hospital
+  - Southport Hospital
+  - Ormskirk Hospital
+  - Warrington Hospital
+  - Halton General Hospital Runcorn
+  - Countess of Chester Hospital
+  - Leighton Hospital Crewe
+  - Royal Shrewsbury Hospital
+  - Arrowe Park Hospital Wirral
+  - Clatterbridge Hospital
+  - Royal Blackpool Hospital
+  - Victoria Hospital Blackpool
+  - Chorley Hospital
+  - Royal Bolton Hospital
+  - Macclesfield District General Hospital
+  - Derriford Hospital Plymouth
+  - Royal Devon and Exeter Hospital
+  - North Devon District Hospital Barnstaple
+  - Torbay Hospital
+  - Royal Cornwall Hospital Truro
+  - West Cornwall Hospital Penzance
+  - Musgrove Park Hospital Taunton
+  - Yeovil District Hospital
+  - Royal United Hospital Bath
+  - Southmead Hospital Bristol
+  - Gloucestershire Royal Hospital
+  - Cheltenham General Hospital
+  - Princess of Wales Hospital Bridgend
+  - Morriston Hospital Swansea
+  - Singleton Hospital Swansea
+  - Neath Port Talbot Hospital
+  - Prince Charles Hospital Merthyr Tydfil
+  - Royal Gwent Hospital Newport
+  - Nevill Hall Hospital Abergavenny
+  - Ysbyty Glan Clwyd Rhyl
+  - Wrexham Maelor Hospital
+  - Bronglais Hospital Aberystwyth
+  - Withybush Hospital Haverfordwest
+  - West Wales General Hospital Carmarthen
+  - Ninewells Hospital Dundee
+  - Perth Royal Infirmary
+  - Queen Margaret Hospital Dunfermline
+  - Victoria Hospital Kirkcaldy
+  - St John's Hospital Livingston
+  - Forth Valley Royal Hospital Larbert
+  - Monklands Hospital Airdrie
+  - Hairmyres Hospital East Kilbride
+  - University Hospital Wishaw
+  - University Hospital Crosshouse Kilmarnock
+  - University Hospital Ayr
+  - Queen Elizabeth University Hospital Glasgow
+  - Gartnavel General Hospital Glasgow
+  - Stobhill Hospital Glasgow
+  - Royal Alexandra Hospital Paisley
+  - Vale of Leven Hospital Alexandria
+  - Inverclyde Royal Hospital Greenock
+  - Royal Infirmary of Edinburgh
+  - Raigmore Hospital Inverness
+  - Belford Hospital Fort William
+  - Caithness General Hospital Wick
+  - Dr Gray's Hospital Elgin
+  - Gilbert Bain Hospital Lerwick
+  - Balfour Hospital Kirkwall
+  - Western Isles Hospital Stornoway
   - Toronto General Hospital
   - Vancouver General Hospital
   - Montreal Royal Victoria Hospital
@@ -321,26 +739,12 @@ providers:
   - Queen Mary Hospital Hong Kong
   - Tuen Mun Hospital
   - Pamela Youde Nethersole Eastern Hospital
-  - All India Institute of Medical Sciences Delhi
-  - Apollo Hospitals Chennai
-  - Fortis Memorial Hospital Gurgaon
-  - Manipal Hospital Bangalore
-  - Lilavati Hospital Mumbai
-  - Christian Medical College Vellore
-  - King Fahad Medical City Riyadh
-  - Sheikh Khalifa Medical City Abu Dhabi
-  - Dubai Hospital
-  - American Hospital Dubai
-  - Bumrungrad International Hospital Bangkok
-  - Chulalongkorn Hospital Bangkok
-  - Ramathibodi Hospital Bangkok
   - Tokyo University Hospital
   - Keio University Hospital Tokyo
   - Osaka University Hospital
   - Seoul National University Hospital
   - Severance Hospital Seoul
   - Asan Medical Center Seoul
-  - Beijing Union Medical College Hospital
   - Peking University Hospital
   - Shanghai Huashan Hospital
   - West China Hospital Chengdu
@@ -348,7 +752,6 @@ providers:
   - Munich University Hospital
   - Heidelberg University Hospital
   - Hamburg-Eppendorf University Hospital
-  - Assistance Publique Paris
   - Pitié-Salpêtrière Hospital Paris
   - Lyon University Hospital
   - Marseille University Hospital
@@ -366,15 +769,168 @@ providers:
   - Gemelli University Hospital Rome
   - Milan Policlinico Hospital
   - Florence Careggi Hospital
-  - Instituto do Coração São Paulo
-  - Hospital Sírio-Libanês São Paulo
-  - Hospital Israelita Albert Einstein
-  - Instituto Nacional de Cardiología Mexico City
-  - Hospital Angeles Mexico City
+  - Hospital das Clínicas São Paulo
   - Hospital Italiano Buenos Aires
-  - German Hospital Buenos Aires
   - Clínica Las Condes Santiago
   - Fundación Santa Fe de Bogotá
+  - Massachusetts General Hospital
+  - New York Presbyterian Hospital
+  - Brigham and Women's Hospital
+  - Duke University Hospital
+  - UCSF Medical Center
+  - Northwestern Memorial Hospital
+  - Barnes-Jewish Hospital St Louis
+  - Houston Methodist Hospital
+  - Stanford Medical Center
+  - UCLA Medical Center
+  - Mount Sinai Hospital New York
+  - University Hospital Philadelphia
+  - University Hospital Boston
+  - University Hospital Chicago
+  - University Hospital Los Angeles
+  - University Hospital Seattle
+  - University Hospital Denver
+  - University Hospital Atlanta
+  - University Hospital Miami
+  - University Hospital Dallas
+  - University Hospital Phoenix
+  - University Hospital San Diego
+  - University Hospital Detroit
+  - University Hospital Minneapolis
+  - University Hospital Cleveland
+  - University Hospital Pittsburgh
+  - University Hospital Baltimore
+  - University Hospital Nashville
+  - University Hospital Portland
+  - All India Institute of Medical Sciences Delhi
+  - Apollo Hospitals Chennai
+  - Fortis Memorial Hospital Gurgaon
+  - Manipal Hospital Bangalore
+  - Lilavati Hospital Mumbai
+  - Christian Medical College Vellore
+  - King Fahad Medical City Riyadh
+  - Sheikh Khalifa Medical City Abu Dhabi
+  - Dubai Hospital
+  - American Hospital Dubai
+  - Bumrungrad International Hospital Bangkok
+  - Chulalongkorn Hospital Bangkok
+  - Ramathibodi Hospital Bangkok
+  - Beijing Union Medical College Hospital
+  - Ruijin Hospital Shanghai
+  - Zhongshan Hospital Shanghai
+  - Renji Hospital Shanghai
+  - Shanghai First People's Hospital
+  - Beijing Friendship Hospital
+  - University of Malaya Medical Centre
+  - Prince Court Medical Centre Kuala Lumpur
+  - Gleneagles Kuala Lumpur
+  - Pantai Hospital Kuala Lumpur
+  - Gleneagles Hospital Singapore
+  - Mount Elizabeth Hospital Singapore
+  - Parkway East Hospital Singapore
+  - Thomson Medical Centre Singapore
+  - Canossa Hospital Hong Kong
+  - Hong Kong Adventist Hospital
+  - Hong Kong Sanatorium & Hospital
+  - Matilda International Hospital Hong Kong
+  - Bumrungrad Hospital Bangkok
+  - Bangkok Hospital
+  - Samitivej Hospital Bangkok
+  - BNH Hospital Bangkok
+  - National Taiwan University Hospital Taipei
+  - Taipei Veterans General Hospital
+  - Chang Gung Memorial Hospital Taiwan
+  - Seoul St Mary's Hospital
+  - Samsung Medical Center Seoul
+  - Yonsei Severance Hospital Seoul
+  - Seoul National University Bundang Hospital
+  - University Hospital Frankfurt
+  - University Hospital Cologne
+  - University Hospital Bonn
+  - University Hospital Düsseldorf
+  - University Hospital Essen
+  - Dresden University Hospital
+  - Leipzig University Hospital
+  - Hannover Medical School
+  - Hôpital Européen Georges Pompidou Paris
+  - Hôpital Necker Paris
+  - Hôpital Saint-Louis Paris
+  - Hôpital Bichat Paris
+  - Hôpital Cochin Paris
+  - CHU Bordeaux
+  - CHU Toulouse
+  - CHU Lille
+  - CHU Nantes
+  - CHU Strasbourg
+  - Rigshospitalet Copenhagen
+  - Herlev Hospital Copenhagen
+  - Bispebjerg Hospital Copenhagen
+  - Skåne University Hospital Lund
+  - Sahlgrenska University Hospital Gothenburg
+  - Uppsala University Hospital
+  - Linköping University Hospital
+  - Haukeland University Hospital Bergen
+  - St Olav's Hospital Trondheim
+  - Turku University Hospital
+  - Tampere University Hospital
+  - Oulu University Hospital
+  - Helsinki University Hospital
+  - Kuopio University Hospital
+  - Leiden University Medical Center
+  - Radboud University Medical Center Nijmegen
+  - Groningen University Medical Center
+  - Maastricht University Medical Center
+  - VU University Medical Center Amsterdam
+  - University Hospital Basel
+  - University Hospital Bern
+  - Lausanne University Hospital
+  - Inselspital Bern
+  - Medical University of Vienna
+  - Medical University of Graz
+  - Medical University of Innsbruck
+  - Landeskrankenhaus Salzburg
+  - Hospital de la Santa Creu i Sant Pau Barcelona
+  - Hospital del Mar Barcelona
+  - Vall d'Hebron Hospital Barcelona
+  - Hospital Ramón y Cajal Madrid
+  - Hospital 12 de Octubre Madrid
+  - Hospital Clínico San Carlos Madrid
+  - Hospital Virgen del Rocío Seville
+  - Hospital Universitario Cruces Bilbao
+  - Hospital Clínico Valencia
+  - San Raffaele Hospital Milan
+  - Niguarda Hospital Milan
+  - Bambino Gesù Hospital Rome
+  - Policlinico Umberto I Rome
+  - Padua University Hospital
+  - Bologna University Hospital
+  - Pisa University Hospital
+  - Siena University Hospital
+  - Hospital do Coração São Paulo
+  - Hospital Moinhos de Vento Porto Alegre
+  - Hospital Alemão Oswaldo Cruz São Paulo
+  - Hospital Samaritano São Paulo
+  - Hospital Pablo Tobón Uribe Medellín
+  - Hospital Zambrano Hellion Monterrey
+  - Steve Biko Academic Hospital Pretoria
+  - Groote Schuur Hospital Cape Town
+  - Tygerberg Hospital Cape Town
+  - Charlotte Maxeke Hospital Johannesburg
+  - Inkosi Albert Luthuli Hospital Durban
+  - Addington Hospital Durban
+  - Kenyatta National Hospital Nairobi
+  - Aga Khan University Hospital Nairobi
+  - Mulago Hospital Kampala
+  - Mbarara Regional Referral Hospital
+  - Korle Bu Teaching Hospital Accra
+  - Lagos University Teaching Hospital
+  - University College Hospital Ibadan
+  - Ahmadu Bello University Teaching Hospital Zaria
+  - Muhimbili National Hospital Dar es Salaam
+  - Queen Elizabeth Central Hospital Blantyre
+  - Kamuzu Central Hospital Lilongwe
+  - University Teaching Hospital Lusaka
+  - Parirenyatwa Hospital Harare
   - Northside Medical Practice
   - Central Health Clinic
   - Riverside GP Surgery
@@ -383,54 +939,101 @@ providers:
   - Harley Street Clinic
   - Portland Hospital
   - Cromwell Hospital London
+  - Wellington Hospital London
+  - Princess Grace Hospital London
+  - London Bridge Hospital
   - Spire Healthcare Manchester
   - Nuffield Health Birmingham
+  - BMI Alexandra Hospital
+  - BMI Blackheath Hospital
+  - BMI Princess Margaret Hospital
+  - Spire London East Hospital
+  - Spire Bushey Hospital
+  - Spire Cambridge Lea Hospital
+  - Spire Leeds Hospital
+  - Spire Liverpool Hospital
+  - Spire Parkway Hospital
+  - Spire Portsmouth Hospital
+  - Spire Southampton Hospital
+  - Nuffield Health Bristol Hospital
+  - Nuffield Health Cambridge Hospital
+  - Nuffield Health Derby Hospital
+  - Nuffield Health Exeter Hospital
+  - Nuffield Health Leicester Hospital
+  - Nuffield Health Newcastle Hospital
+  - Nuffield Health Plymouth Hospital
+  - Nuffield Health Warwickshire Hospital
+  - Circle Health Bath Hospital
+  - Circle Health Reading Hospital
+  - Circle Health Nottingham
+  - American University of Beirut Medical Center
+  - King Faisal Specialist Hospital Riyadh
+  - King Abdullah Medical City Mecca
+  - Mediclinic City Hospital Dubai
+  - Rashid Hospital Dubai
+  - NMC Royal Hospital Dubai
+  - Burjeel Hospital Abu Dhabi
+  - Aga Khan University Hospital Karachi
+  - Shifa International Hospital Islamabad
+  - Indus Hospital Karachi
+  - Narayana Health City Bangalore
+  - Max Super Speciality Hospital Delhi
+  - Medanta The Medicity Gurgaon
+  - Kokilaben Dhirubhai Ambani Hospital Mumbai
+  - Jaslok Hospital Mumbai
+  - PD Hinduja Hospital Mumbai
+  - Sankara Nethralaya Chennai
+  - Narayana Hrudayalaya Bangalore
+  - KK Women's and Children's Hospital Singapore
+  - China Medical University Hospital Taichung
+  - Fuwai Hospital Beijing
+  - Klinikum Grosshadern Munich
+  - Klinikum Rechts der Isar Munich
+  - Instituto do Coração São Paulo
+  - Hospital Sírio-Libanês São Paulo
+  - Hospital Israelita Albert Einstein
+  - Hospital Angeles Mexico City
+  - German Hospital Buenos Aires
+  - Instituto Nacional de Cardiología Mexico City
+  - Instituto Nacional de Ciencias Médicas Havana
+  - Centro Médico Imbanaco Cali
+  - Fundación Valle del Lili Cali
+  - Chris Hani Baragwanath Hospital Soweto
+  - Kilimanjaro Christian Medical Centre
 
 wards_clinics:
-  - Acute Medical Unit
-  - Cardiology Ward
-  - Respiratory Ward
-  - Gastroenterology Unit
-  - Haematology Day Unit
-  - Oncology Ward 7B
-  - Surgical Assessment Unit
-  - Trauma and Orthopaedics Ward
-  - Neurology Ward
-  - Stroke Unit
-  - Intensive Care Unit
-  - High Dependency Unit
-  - Coronary Care Unit
-  - Emergency Department
-  - Renal Ward
-  - Endocrinology Clinic
-  - Diabetes Centre
-  - Rheumatology Clinic
-  - General Surgery Ward
-  - Vascular Surgery Unit
-  - Hepatology Clinic
-  - Infectious Diseases Unit
-  - Geriatric Medicine Ward
-  - Care of the Elderly Ward
-  - Rehabilitation Unit
-  - Chest Clinic
-  - Liver Clinic
-  - Heart Failure Clinic
-  - Anticoagulation Clinic
-  - Dermatology Outpatients
-  - ENT Ward
-  - Ophthalmology Clinic
-  - Urology Ward
-  - Nephrology Unit
-  - Dialysis Unit
-  - Maternity Ward
-  - Gynaecology Ward
-  - Paediatric Ward
-  - Neonatal Intensive Care
-  - Surgical Day Unit
-  - Medical Day Unit
-  - Endoscopy Suite
-  - Radiology Department
-  - Nuclear Medicine
+  - Ward 1A
+  - Ward 2B
+  - Ward 3C
+  - Ward 4A
+  - Ward 5B
+  - Ward 6C
+  - Ward 7A
+  - Ward 8B
+  - Ward 9C
+  - Ward 10A
+  - Ward 11B
+  - Ward 12C
+  - Ward 13A
+  - Ward 14B
+  - Ward 15C
+  - Ward 16A
+  - Ward 17B
+  - Ward 18C
+  - Ward 19A
+  - Ward 20B
+  - Medical Ward 1
+  - Medical Ward 2
+  - Medical Ward 3
+  - Medical Ward 4
+  - Medical Ward 5
+  - Medical Ward 6
+  - Surgical Ward 1
+  - Surgical Ward 2
+  - Surgical Ward 3
+  - Surgical Ward 4
+  - Surgical Ward 5
+  - Surgical Ward 6
   - Victoria Ward
   - Nightingale Ward
   - Florence Ward
@@ -441,64 +1044,212 @@ wards_clinics:
   - Darwin Ward
   - Churchill Ward
   - Byron Ward
-  - Outpatient Clinic 3
-  - Multidisciplinary Team Clinic
-  - Liver Transplant Unit
-  - Bone Marrow Transplant Unit
-  - Burns Unit
-  - Plastic Surgery Ward
-  - Maxillofacial Surgery
-  - Neurosurgery Ward
-  - Cardiothoracic Ward
-  - Colorectal Surgery Unit
-  - Upper GI Surgery Ward
-  - Breast Surgery Clinic
-  - Pain Management Clinic
-  - Palliative Care Unit
-  - Discharge Lounge
-  - Day Surgery Unit
-  - Pre-Assessment Clinic
-  - Fracture Clinic
-  - Memory Clinic
-  - Movement Disorders Clinic
-  - Headache Clinic
-  - Epilepsy Clinic
-  - Hypertension Clinic
-  - Lipid Clinic
-  - Thyroid Clinic
-  - Pituitary Clinic
-  - Heart Rhythm Clinic
-  - Valve Clinic
-  - Adult Congenital Heart Clinic
-  - Pulmonary Hypertension Clinic
-  - Lung Cancer MDT
-  - Upper GI Cancer MDT
-  - Colorectal Cancer MDT
-  - Hepatobiliary MDT
-  - Pancreatic Cancer MDT
-  - Breast Cancer Clinic
-  - Lymphoma Clinic
-  - Myeloma Clinic
-  - Acute Leukaemia Unit
-  - Chronic Diseases Clinic
-  - HIV Clinic
-  - Tuberculosis Clinic
-  - Tropical Medicine Unit
-  - Gastro Ward 4
-  - Surgical Ward 6
-  - Medical Ward 8
-  - Elderly Care Ward 12
-  - Rehabilitation Ward 3
-  - Observation Ward
+  - Shakespeare Ward
+  - Milton Ward
+  - Chaucer Ward
+  - Keats Ward
+  - Shelley Ward
+  - Wordsworth Ward
+  - Tennyson Ward
+  - Browning Ward
+  - Acute Medical Unit
+  - Surgical Assessment Unit
   - Clinical Decisions Unit
   - Same Day Emergency Care
   - Ambulatory Care Unit
+  - Observation Ward
+  - Assessment Unit
+  - Admission Unit
+  - Short Stay Unit
+  - Day Case Unit
+  - Intensive Care Unit
+  - High Dependency Unit
+  - Critical Care Unit
+  - Coronary Care Unit
+  - Emergency Department
+  - Accident and Emergency
+  - Urgent Care Centre
+  - Minor Injuries Unit
+  - Walk-In Centre
+  - Rehabilitation Unit
+  - Rehabilitation Ward
+  - Discharge Lounge
+  - Day Surgery Unit
+  - Surgical Day Unit
+  - Medical Day Unit
+  - Endoscopy Suite
+  - Treatment Room
+  - Procedure Room
+  - Radiology Department
+  - Imaging Department
+  - Outpatient Department
+  - Outpatient Clinic 1
+  - Outpatient Clinic 2
+  - Outpatient Clinic 3
+  - Outpatient Clinic 4
+  - Outpatient Clinic 5
+  - Outpatient Clinic A
+  - Outpatient Clinic B
+  - Outpatient Clinic C
+  - Clinic Room 1
+  - Clinic Room 2
+  - Clinic Room 3
+  - Clinic Room 4
+  - Clinic Room 5
+  - Consulting Room 1
+  - Consulting Room 2
+  - Consulting Room 3
+  - Consulting Room 4
+  - Consulting Room 5
+  - Medical Clinic
+  - Surgical Clinic
+  - Specialist Clinic
+  - General Clinic
+  - Follow-Up Clinic
+  - Review Clinic
+  - Assessment Clinic
+  - Pre-Assessment Clinic
+  - Post-Operative Clinic
   - Virtual Ward
-  - Respiratory Assessment Unit
+  - Community Ward
+  - Step-Down Unit
+  - Transitional Care Unit
+  - Multidisciplinary Unit
+  - Care of the Elderly Ward
+  - Elderly Care Ward
+  - Geriatric Ward
   - Frailty Unit
-  - Orthogeriatric Ward
-  - General Practice Surgery
+  - Department A
+  - Department B
+  - Department C
+  - Unit 1
+  - Unit 2
+  - Unit 3
+  - Unit 4
+  - Unit 5
+  - Centre A
+  - Centre B
+  - Main Ward
+  - North Wing
+  - South Wing
+  - East Wing
+  - West Wing
+  - Ground Floor Clinic
+  - First Floor Clinic
+  - Second Floor Clinic
+  - Third Floor Clinic
+  - Level 1 Clinic
+  - Level 2 Clinic
+  - Level 3 Clinic
+  - Level 4 Clinic
+  - Block A Ward
+  - Block B Ward
+  - Block C Ward
+  - Building 1 Ward
+  - Building 2 Ward
+  - Building 3 Ward
+  - Treatment Centre
+  - Day Hospital
+  - Recovery Ward
+  - Post-Anaesthetic Care Unit
+  - Pre-Operative Area
+  - Waiting Area
+  - Reception Area
+  - General Practice
   - Primary Care Clinic
   - Community Health Centre
-  - Urgent Care Centre
-  - Walk-In Centre
+  - Health Centre
+  - Medical Centre
+  - Wellness Centre
+  - Diagnostic Centre
+  - Investigation Unit
+  - Screening Unit
+  - Infusion Suite
+  - Transfusion Unit
+  - Phlebotomy Clinic
+  - Blood Tests Clinic
+  - Injection Room
+  - Dressing Clinic
+  - Wound Care Clinic
+  - Minor Procedures Unit
+  - Side Room 1
+  - Side Room 2
+  - Side Room 3
+  - Isolation Room
+  - Private Room
+  - Single Room
+  - Bay 1
+  - Bay 2
+  - Bay 3
+  - Bay 4
+  - Bay 5
+  - Bay 6
+  - Examination Room 1
+  - Examination Room 2
+  - Examination Room 3
+  - Examination Room 4
+  - Theatre 1
+  - Theatre 2
+  - Theatre 3
+  - Theatre 4
+  - Operating Theatre
+  - Main Theatre
+  - Anaesthetic Room
+  - Recovery Room
+  - Procedure Suite
+  - Investigation Suite
+  - Central Suite
+  - Administrative Office
+  - Nurses Station
+  - Ward Office
+  - Clinical Office
+  - Patient Lounge
+  - Day Room
+  - Waiting Room
+  - Family Room
+  - Visitor Room
+  - Staff Base
+  - Clinical Area
+  - Care Area
+  - Therapy Room
+  - Gym
+  - Physio Department
+  - Allied Health Department
+  - Support Services
+  - Ancillary Services
+  - General Ward
+  - Combined Ward
+  - Mixed Ward
+  - Specialty Ward
+  - Sub-Specialty Unit
+  - Integrated Care Unit
+  - Coordinated Care Unit
+  - Hospital at Home
+  - Outreach Service
+  - Mobile Unit
+  - Satellite Clinic
+  - Branch Clinic
+  - Extended Hours Clinic
+  - Evening Clinic
+  - Weekend Clinic
+  - Rapid Access Clinic
+  - Express Clinic
+  - Fast Track Unit
+  - Priority Clinic
+  - Triage Area
+  - Initial Assessment Area
+  - Central Clinic
+  - Main Clinic
+  - General Department
+  - Services Department
+  - Clinical Services
+  - Patient Services
+  - Inpatient Ward
+  - Outpatient Area
+  - Elective Unit
+  - Planned Care Unit
+  - Routine Clinic
+  - Standard Ward
+  - General Unit
+  - Medical Assessment Unit
+  - Surgical Assessment Area
